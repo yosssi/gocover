@@ -14,3 +14,5 @@ $ gocover
 ```
 
 ## Example
+
+![gocover-example](https://cloud.githubusercontent.com/assets/1583973/3541286/a962faac-084a-11e4-873f-a5181e3939ea.gif)
