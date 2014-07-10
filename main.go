@@ -18,6 +18,7 @@ func main() {
 	execCmd(exec.Command("go", "tool", "cover", fmt.Sprintf("-html=%s", file)))
 }
 
+// execCmd executes the specified command.
 func execCmd(cmd *exec.Cmd) {
 	out, err := cmd.Output()
 	if err != nil {
